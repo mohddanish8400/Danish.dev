@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mohd Danish | Frontend Developer</title>
+    <meta name="description" content="Portfolio of Mohd Danish - Frontend Developer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!--PROGRESS BAR -->
+    <div class="progress" id="progress"></div>
+
+    <!--NAVBAR-->
+    <header class="navbar" id="nav">
+        <nav class="nav-inner">
+            <a href="#home" class="logo">
+                <span>&lt;</span>Danish<span class="dot">.dev</span><span>/&gt;</span>
+            </a>
+
+            <ul class="nav-links" id="links">
+                <li><a href="#home" class="active" data-link>Home</a></li>
+                <li><a href="#about" data-link>About</a></li>
+                <li><a href="#skills" data-link>Skills</a></li>
+                <li><a href="#projects" data-link>Projects</a></li>
+                <li><a href="#exp" data-link>Experience</a></li>
+                <li><a href="#edu" data-link>Education</a></li>
+                <li><a href="#contact" data-link>Contact</a></li>
+            </ul>
+
+            <div class="nav-right">
+                <a href="#contact" class="btn btn-sm btn-main">Hire Me</a>
+                <button class="hamburger" id="ham" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!--HERO -->
+        <section class="hero" id="home">
+            <div class="hero-glow"></div>
+            <div class="container hero-grid">
+                <div class="reveal">
+                    <p class="eyebrow">// Hello World, I'm</p>
+                    <h1>Mohd Danish</h1>
+                    <h2 class="hero-sub">
+                        <span id="type"></span><span class="cursor">|</span>
+                    </h2>
+                    <p>
+                        I build fast, accessible, and clean interfaces.
+                        Junior Frontend Dev with 6 months experience turning designs into production-ready code.
+                    </p>
+                    <div class="hero-btns">
+                        <a href="#projects" class="btn btn-main">View Projects</a>
+                        <a href="assets/Mohd-Danish-QA_resume.pdf" class="btn btn-outline" download>Download Resume</a>
+                    </div>
+                    <div class="socials">
+                        <a href="https://github.com/mohddanish8400" target="_blank" class="social"
+                            aria-label="GitHub">GH</a>
+                        <a href="https://www.linkedin.com/in/mohd-danishanees/" target="_blank" class="social"
+                            aria-label="LinkedIn">IN</a>
+
+                        <a href="https://twitter.com/" target="_blank" class="social" aria-label="Twitter">TW</a>
+                    </div>
+                </div>
+
+                <div class="hero-visual reveal">
+                    <div class="code-box">
+                        <div class="code-top">
+                            <span class="dot r"></span>
+                            <span class="dot y"></span>
+                            <span class="dot g"></span>
+                            <span class="code-title">about-me.js</span>
+                        </div>
+                        <pre class="code-body"><code><span class="k">const</span> <span class="v">dev</span> = {
+  <span class="p">name</span>: <span class="s">'Mohd Danish Anees'</span>,
+  <span class="p">role</span>: <span class="s">'Full Stack Developer'</span>,
+  <span class="p">exp</span>: <span class="s">'6 months'</span>,  
+  <span class="p">stack</span>: [<span class="s">'HTML5'</span>, <span class="s">'CSS3'</span>, <span class="s">'JS'</span>,
+   <span class="s">'React.js'</span>, <span class="s">'Node.js'</span>, <span class="s">'Express.js'</span>, <span class="s">'MongoDB'</span>],
+  <span class="p">loves</span>: <span class="s">'clean UI'</span>,
+  <span class="p">available</span>: <span class="k">true</span>,
+};</code></pre>
+                    </div>
+                    <div class="float-card f1">🚀 6+ Projects</div>
+                    <div class="float-card f2">💬 Open to Work</div>
+                </div>
+            </div>
+
+            <a href="#about" class="scroll-down" aria-label="Scroll">
+                <span class="mouse"></span>
+            </a>
+        </section>
+
+        <!--ABOUT -->
+        <section id="about">
+            <div class="container">
+                <p class="sec-label reveal">01 — Get to know me</p>
+                <h2 class="sec-title reveal">About Me</h2>
+
+                <div class="about-grid">
+                    <div class="reveal">
+                        <div class="about-img">
+                            <img src="assets/Danish(me)_pic.jpg" alt="Mohd Danish Anees" />
+                        </div>
+                    </div>
+
+                    <div class="about-text reveal">
+                        <p>
+                            Hey, I'm Danish — a Frontend Developer with 6 months of hands-on experience.
+                            I focus on building responsive, user-friendly apps with HTML, CSS, JavaScript and React.js.
+                        </p>
+                        <p>
+                            I enjoy solving problems, learning new tools, and working with teams.
+                            When I'm not coding I explore design trends or contribute to open source.
+                        </p>
+
+                        <div class="info-grid">
+                            <div class="info-item">
+                                <span>Name</span>
+                                <span>Mohd Danish Anees</span>
+                            </div>
+                            <div class="info-item">
+                                <span>Email</span>
+                                <span>mohddanisht01@gmail.com</span>
+                            </div>
+                            <div class="info-item">
+                                <span>Location</span>
+                                <span>Remote / Worldwide</span>
+                            </div>
+                            <div class="info-item">
+                                <span>Freelance</span>
+                                <span>Available</span>
+                            </div>
+                        </div>
+
+                        <a href="#contact" class="btn btn-main">Let's Talk</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--SKILLS-->
+        <section id="skills">
+            <div class="container">
+                <p class="sec-label reveal">02 — What I work with</p>
+                <h2 class="sec-title reveal">Skills & Tools</h2>
+                <p class="sec-desc reveal">Technologies I use to build things on the web.</p>
+
+                <div class="skills-grid">
+                    <div class="skill reveal">
+                        <div class="skill-icon">🧱</div>
+                        <h3>HTML5</h3>
+                        <div class="bar">
+                            <div class="bar-fill" style="width:90%"></div>
+                        </div>
+                        <span class="percent">90%</span>
+                    </div>
+                    <div class="skill reveal">
+                        <div class="skill-icon">🎨</div>
+                        <h3>CSS3</h3>
+                        <div class="bar">
+                            <div class="bar-fill" style="width:80%"></div>
+                        </div>
+                        <span class="percent">80%</span>
+                    </div>
+                    <div class="skill reveal">
+                        <div class="skill-icon">⚡</div>
+                        <h3>JavaScript</h3>
+                        <div class="bar">
+                            <div class="bar-fill" style="width:70%"></div>
+                        </div>
+                        <span class="percent">70%</span>
+                    </div>
+                    <div class="skill reveal">
+                        <div class="skill-icon">🌀</div>
+                        <h3>React.js</h3>
+                        <div class="bar">
+                            <div class="bar-fill" style="width:50%"></div>
+                        </div>
+                        <span class="percent">50%</span>
+                    </div>
+                    <div class="skill reveal">
+                        <div class="skill-icon">🔧</div>
+                        <h3>Node.js & Express.js</h3>
+                        <div class="bar">
+                            <div class="bar-fill" style="width:60%"></div>
+                        </div>
+                        <span class="percent">60%</span>
+                    </div>
+                    <div class="skill reveal">
+                        <div class="skill-icon">🧩</div>
+                        <h3>Git & GitHub</h3>
+                        <div class="bar">
+                            <div class="bar-fill" style="width:65%"></div>
+                        </div>
+                        <span class="percent">65%</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--PROJECTS-->
+        <section id="projects">
+            <div class="container">
+                <p class="sec-label reveal">03 — Recent work</p>
+                <h2 class="sec-title reveal">Projects</h2>
+                <p class="sec-desc reveal">A few things I've built while learning.</p>
+
+                <div class="projects-grid">
+                    <article class="project reveal">
+                        <div class="project-img">
+                            <img src="https://placehold.co/600x400/171B24/F5A623?text=Weather+App" alt="Weather App" />
+                            <div class="overlay">
+                                <a href="#">🔗 Live Demo</a>
+                                <a href="#">💻 Source</a>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <h3>Weather Forecast App</h3>
+                            <p>Responsive weather app that fetches real-time data and shows 5-day forecast.</p>
+                            <div class="tags">
+                                <span class="tag">HTML5</span>
+                                <span class="tag">CSS3</span>
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">API</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project reveal">
+                        <div class="project-img">
+                            <img src="https://placehold.co/600x400/171B24/2DD4BF?text=Task+Manager"
+                                alt="Contact Manager" />
+                            <div class="overlay">
+                                <a href="https://contact-manager-v001.vercel.app/">🔗 Live Demo</a>
+                                <a href="https://github.com/mohddanish8400/contact-manager">💻 Source</a>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <h3>Contact Manager</h3>
+                            <p>Full-stack contact management application with CRUD operations and MongoDB database.</p>
+                            <div class="tags">
+                                <span class="tag">HTML5</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">Node.js</span>
+                                <span class="tag">Express.js</span>
+                                <span class="tag">MongoDB</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project reveal">
+                        <div class="project-img">
+                            <img src="https://placehold.co/600x400/171B24/8B7CFF?text=E-Commerce+UI"
+                                alt="E-Commerce UI" />
+                            <div class="overlay">
+                                <a href="#">🔗 Live Demo</a>
+                                <a href="#">💻 Source</a>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <h3>E-Commerce Landing</h3>
+                            <p>Fully responsive product page with cart UI, filters and smooth animations.</p>
+                            <div class="tags">
+                                <span class="tag">HTML5</span>
+                                <span class="tag">Flexbox</span>
+                                <span class="tag">Animations</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project reveal">
+                        <div class="project-img">
+                            <img src="https://placehold.co/600x400/171B24/FF8C69?text=Recipe+Finder"
+                                alt="Recipe Finder" />
+                            <div class="overlay">
+                                <a href="#">🔗 Live Demo</a>
+                                <a href="#">💻 Source</a>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <h3>Recipe Finder</h3>
+                            <p>Search and filter recipes by ingredients using a public API.</p>
+                            <div class="tags">
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">Fetch API</span>
+                                <span class="tag">CSS Grid</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!--EXPERIENCE-->
+        <section id="exp">
+            <div class="container">
+                <p class="sec-label reveal">04 — Where I've worked</p>
+                <h2 class="sec-title reveal">Experience</h2>
+
+                <div class="timeline">
+                    <!-- <div class="tl-item reveal">
+                        <div class="tl-dot"></div>
+                        <div class="tl-card">
+                            <span class="tl-date">Jan 2026 — Present</span>
+                            <h3>Frontend Developer</h3>
+                            <p class="tl-company">InsaAllah·</p>
+                            <p>improving performance + accessibility.</p>
+                        </div>
+                    </div> -->
+
+                    <div class="tl-item reveal">
+                        <div class="tl-dot"></div>
+                        <div class="tl-card">
+                            <span class="tl-date">Jun 2025 — Nov 2025</span>
+                            <h3>Frontend Developer Intern</h3>
+                            <p class="tl-company">Nexgeno Technologies Pvt. Ltd.</p>
+                            <p>Helped build landing pages and internal tools, wrote reusable CSS, joined code reviews
+                                and daily stand-ups.</p>
+                        </div>
+                    </div>
+
+                    <div class="tl-item reveal">
+                        <div class="tl-dot"></div>
+                        <div class="tl-card">
+                            <span class="tl-date">2024</span>
+                            <h3>Freelance Web Projects</h3>
+                            <p class="tl-company">Self-Employed</p>
+                            <p>Built small business sites and portfolio pages for local clients using HTML, CSS and
+                                JavaScript.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--EDUCATION-->
+        <section id="edu">
+            <div class="container">
+                <p class="sec-label reveal">05 — Learning path</p>
+                <h2 class="sec-title reveal">Education</h2>
+
+                <div class="edu-grid">
+                    <div class="edu reveal">
+                        <div class="edu-icon">🎓</div>
+                        <span class="tl-date">July-2019 — Aug-2023</span>
+                        <h3>B.Tech. Computer Science & Engineering</h3>
+                        <p class="edu-place">Dr. Abdul Kalam Technical University</p>
+                        <p>Focused on web tech, data structures and software engineering basics.</p>
+                    </div>
+
+                    <div class="edu reveal">
+                        <div class="edu-icon">📜</div>
+                        <span class="tl-date">April 2018 — April 2019</span>
+                        <h3>Intermediate</h3>
+                        <p class="edu-place">J.L.Inter College,Jwalapur Chandopara Prayagraj</p>
+                        <p>Focused on mathematics, science and foundational academic concepts.</p>
+                        
+                    </div>
+
+                    <!-- <div class="edu reveal">
+                        <div class="edu-icon">💻</div>
+                        <span class="tl-date">2025</span>
+                        <h3>JS Algorithms & DS</h3>
+                        <p class="edu-place">freeCodeCamp</p>
+                        <p>Built strong fundamentals in JS logic, ES6+ and problem solving.</p>
+                    </div> -->
+                    <div class="edu reveal">
+                        <div class="edu-icon">📜</div>
+                        <span class="tl-date">April 2016 — April 2017</span>
+                        <h3>High School</h3>
+                        <p class="edu-place">S.V.B.P.Inter College,Jalalpur Kasba Handia Prayagraj</p>
+                        <!-- <p>Built strong fundamentals in JS logic, ES6+ and problem solving.</p> -->
+                        <p>Built a strong foundation in mathematics, science and core academic subjects.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--CONTACT-->
+        <section id="contact">
+            <div class="container">
+                <p class="sec-label reveal">06 — Get in touch</p>
+                <h2 class="sec-title reveal">Let's Build Something</h2>
+                <p class="sec-desc reveal">Have a project or just want to say hi? Drop a message.</p>
+
+                <div class="contact-grid">
+                    <div class="contact-info reveal">
+                        <div class="c-item">
+                            <span class="c-icon">📧</span>
+                            <div>
+                                <span class="info-item"><span>Email</span><span>mohddanisht01@gmail.com</span></span>
+                            </div>
+                        </div>
+                        <div class="c-item">
+                            <span class="c-icon">📍</span>
+                            <div>
+                                <span class="info-item"><span>Location</span><span>Remote / Worldwide</span></span>
+                            </div>
+                        </div>
+                        <div class="c-item">
+                            <span class="c-icon">📱</span>
+                            <div>
+                                <span class="info-item"><span>Phone</span><span>+91 8081369341</span></span>
+                            </div>
+                        </div>
+
+                        <div class="socials">
+                            <a href="https://github.com/mohddanish8400" target="_blank" class="social">GH</a>
+                            <a href="https://www.linkedin.com/in/mohd-danishanees/" target="_blank"
+                                class="social">IN</a>
+                            <a href="https://twitter.com/" target="_blank" class="social">TW</a>
+                        </div>
+                    </div>
+
+                    <form class="form reveal" id="form" novalidate>
+                        <div class="group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" placeholder="Your full name" />
+                            <span class="err-msg" id="nameErr"></span>
+                        </div>
+                        <div class="group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="you@example.com" />
+                            <span class="err-msg" id="emailErr"></span>
+                        </div>
+                        <div class="group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" placeholder="What's this about?" />
+                            <span class="err-msg" id="subErr"></span>
+                        </div>
+                        <div class="group">
+                            <label for="msg">Message</label>
+                            <textarea id="msg" rows="5" placeholder="Tell me about your project..."></textarea>
+                            <span class="err-msg" id="msgErr"></span>
+                        </div>
+                        <button type="submit" class="btn btn-main btn-full">Send Message</button>
+                        <p class="success" id="ok">✅ Message sent successfully!</p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--FOOTER-->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <a href="#home" class="logo">
+                <span>&lt;</span>Danish<span class="dot">.dev</span><span>/&gt;</span>
+            </a>
+            <p>Designed & built with 💛 using HTML, CSS & JavaScript.</p>
+            <p class="copy">&copy; <span id="year"></span> Mohd Danish. All rights reserved.</p>
+            <div class="socials">
+                <a href="https://github.com/mohddanish8400" target="_blank" class="social">GH</a>
+                <a href="https://linkedin.com/in/mohd-danishanees/" target="_blank" class="social">IN</a>
+                <a href="https://twitter.com/" target="_blank" class="social">TW</a>
+            </div>
+        </div>
+    </footer>
+
+    <!--BACK TO TOP-->
+    <button class="top-btn" id="top" aria-label="Back to top">↑</button>
+    <script src="script.js"></script>
+</body>
+
+</html>
